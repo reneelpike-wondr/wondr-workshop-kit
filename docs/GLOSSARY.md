@@ -76,7 +76,7 @@ A unit of text that AI processes. Also used to mean an API key or password. "Cla
 A free app made by Microsoft. It is where you will chat with your AI assistant, see your files, and run your terminal. Think of it like a supercharged Notepad — most professional developers and AI users work in it.
 
 **Webhook**
-A way for one app to notify another app when something happens. "When a new lead comes in, send me a Telegram message." Your assistant can set these up for you.
+A way for one app to notify another app when something happens. "When a new lead comes in, send me a notification." Your assistant can set these up for you.
 
 ---
 

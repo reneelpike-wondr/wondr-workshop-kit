@@ -10,5 +10,4 @@ setup_complete: false
 - [ ] Workshop kit and skills installed
 - [ ] Gmail
 - [ ] Google Calendar
-- [ ] Telegram notifications
 

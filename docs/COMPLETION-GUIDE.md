@@ -58,19 +58,6 @@ Your assistant can help you set this up — just ask in the Claude chat:
 
 ---
 
-### Set Up Telegram Notifications
-
-This lets your AI assistant send you messages on your phone. Very useful when it finishes a task.
-
-**Step 1:** Download Telegram on your phone (free)
-**Step 2:** Search for `@BotFather` in Telegram
-**Step 3:** Send `/newbot` and follow the instructions
-**Step 4:** Copy your bot token
-**Step 5:** Tell your assistant: "I want to set up Telegram notifications. My bot token is: [your token]"
-**Step 6:** Your assistant handles the rest
-
----
-
 ### Connect Your CRM (GoHighLevel or HubSpot)
 
 Your assistant can help you set this up — just ask in the Claude chat:

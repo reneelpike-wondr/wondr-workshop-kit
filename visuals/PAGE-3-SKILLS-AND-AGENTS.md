@@ -135,34 +135,10 @@ This is what a Level 4 AI setup looks like in a real business.
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
-                    📱 Owner's Telegram
+                    📱 Owner's Phone
               Notifications only when a decision
               is needed — approve, skip, or redirect
 ```
-
----
-
-## How Telegram Connects It All
-
-Telegram is a free messaging app. Your AI can send reports, alerts, and task completions directly to your phone.
-
-```
-Agent finishes a task or finds something important
-        │
-        ▼
-Sends a Telegram message to your phone
-        │
-        ▼
-📱 You get a notification — read it like a text
-        │
-        ▼
-Reply "Yes, send it" / "Skip" / "Book the meeting"
-        │
-        ▼
-Agent acts on your reply
-```
-
-You stay in control. AI does the work. You make the calls.
 
 ---
 
@@ -179,7 +155,6 @@ TODAY (Workshop)
 30 DAYS
   → Gmail + Calendar connected
   → CRM connected (GHL or HubSpot)
-  → Telegram notifications set up
   → Running AI on 3-5 tasks per week
 
 90 DAYS

@@ -15,7 +15,7 @@
 - [ ] Test your own setup — open VS Code, run `cd ~/my-assistant && claude`, confirm it loads
 - [ ] Have the Notion page open with the bootstrap prompt ready for attendees to copy
 - [ ] Check the room Wi-Fi is strong enough for 20 people downloading tools
-- [ ] Have a "helper" setup for anyone who falls behind (Telegram or second laptop)
+- [ ] Have a "helper" setup for anyone who falls behind (second laptop or screen-share)
 
 ---
 
@@ -106,17 +106,17 @@
 - Walk them through Gmail connection with Playwright assistance
 - Demo: "Now ask your assistant to summarise your last 10 emails"
 
-### 2:20-2:35 — Telegram Setup (15 min)
-
-- "This is the one that will blow your mind — notifications on your phone when your assistant finishes a job"
-- Walk through Telegram bot setup for anyone who wants it
-- Demo: Set a task running and show the phone notification
-
-### 2:35-2:50 — Q&A + Showcase (15 min)
+### 2:20-2:35 — Q&A + Showcase (15 min)
 
 - Ask 3-4 people to share what their assistant produced today
 - Address common questions (have FAQ doc ready)
 - Show: "You can keep giving it tasks after you leave today"
+
+### 2:35-2:50 — Free Exploration + Help (15 min)
+
+- Let attendees try more tasks with their assistant
+- Walk the room helping anyone who wants to connect Gmail, Calendar, or try new skills
+- Encourage them to try prompts from the FIRST-5-PROMPTS card
 
 ### 2:50-3:00 — Close + Next Steps (10 min)
 

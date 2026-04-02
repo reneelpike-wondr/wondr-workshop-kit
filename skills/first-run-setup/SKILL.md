@@ -24,7 +24,7 @@ Check if `~/.claude/skills/` has skill directories inside it.
 - If empty or missing → "It looks like your skills did not copy correctly. Let me fix that."
   1. Check if `~/wondr-workshop-kit/skills/` exists
   2. If yes → copy all skill folders (not SKILLS-LIST.md) to `~/.claude/skills/`
-  3. If no → re-download: `git clone https://github.com/reneepike-wondr/wondr-workshop-kit.git ~/wondr-workshop-kit` then copy.
+  3. If no → re-download: `git clone https://github.com/reneelpike-wondr/wondr-workshop-kit.git ~/wondr-workshop-kit` then copy.
   Use the correct commands for the user's operating system (Mac vs Windows).
 
 ### Step 2 — Detect Operating System
@@ -71,7 +71,6 @@ os: [Mac, Windows, or Linux]
 - [ ] Playwright (browser automation)
 - [ ] Gmail
 - [ ] Google Calendar
-- [ ] Telegram notifications
 ```
 
 Say:
