@@ -43,7 +43,7 @@ Your Laptop
 | Step | What Happens |
 |---|---|
 | **1. Bootstrap** | Paste the bootstrap prompt into Claude Code — it clones the repo, copies skills, and creates your workspace |
-| **2. Open workspace** | Open `~/my-assistant/` in VS Code and start Claude Code — the CLAUDE.md agent handles onboarding, asks about your business, and runs a live demo |
+| **2. Open workspace** | Open `~/my-sidekick/` in VS Code and start Claude Code — the CLAUDE.md agent handles onboarding, asks about your business, and runs a live demo |
 
 After that, every time you open VS Code and type `claude`, your assistant already knows who you are.
 
@@ -68,7 +68,7 @@ No other pre-installs needed on Mac. Full checklist: [docs/PRE-WORKSHOP-CHECKLIS
 1. Open VS Code and start Claude Code in the terminal
 2. Copy the **bootstrap prompt** from the workshop Notion page and paste it into Claude Code
 3. Claude handles everything: clones the repo, copies skills, creates your workspace
-4. When it finishes, open `~/my-assistant/` in VS Code and start Claude Code
+4. When it finishes, open `~/my-sidekick/` in VS Code and start Claude Code
 5. The CLAUDE.md agent takes over — it greets you, asks about your business, and shows you what it can do
 
 Your assistant handles it all conversationally, one step at a time. No scripts to run, no commands to memorise.
@@ -192,14 +192,14 @@ This kit includes a curated, security-reviewed skill library built specifically 
 
 ```text
 wondr-workshop-kit/
-├── CLAUDE.md                    # Pointer to my-assistant/CLAUDE.md
-├── my-assistant/                # Copied to ~/my-assistant/ on your computer
+├── CLAUDE.md                    # Pointer to my-sidekick/CLAUDE.md
+├── my-sidekick/                # Copied to ~/my-sidekick/ on your computer
 │   ├── CLAUDE.md                # Your assistant's brain — instructions + onboarding agent
 │   └── memory/                  # Where your assistant saves what it learns
 │       ├── USER.md              # Your profile (filled in on first run)
 │       ├── SETUP.md             # Setup completion status
 │       └── MEMORY.md            # Persistent memory across conversations
-├── skills/                      # 65 skills (installed to ~/.claude/skills/)
+├── skills/                      # 72 skills (installed to ~/.claude/skills/)
 ├── docs/
 │   ├── PRE-WORKSHOP-CHECKLIST.md   # What to do before arriving
 │   ├── WINDOWS-SETUP.md            # Step-by-step Windows guide
@@ -230,13 +230,13 @@ Full guide: [docs/COMPLETION-GUIDE.md](docs/COMPLETION-GUIDE.md)
 ## Common Questions
 
 **Is my data private?**
-Yes. Your memory files (`~/my-assistant/memory/`) live on your computer only. Nothing is sent to a third party except your conversations with Claude (which go to Anthropic, same as using claude.ai normally).
+Yes. Your memory files (`~/my-sidekick/memory/`) live on your computer only. Nothing is sent to a third party except your conversations with Claude (which go to Anthropic, same as using claude.ai normally).
 
 **What does it cost after the workshop?**
 Claude Max is $100 USD/month (~$155 AUD). That is the only required cost. Everything else in this kit is free.
 
 **What if I miss a step during setup?**
-Your assistant will notice and offer to fix it. Just open `~/my-assistant/` in VS Code, start Claude Code, and it will pick up where you left off.
+Your assistant will notice and offer to fix it. Just open `~/my-sidekick/` in VS Code, start Claude Code, and it will pick up where you left off.
 
 **Can I use this on Windows?**
 Yes. See [docs/WINDOWS-SETUP.md](docs/WINDOWS-SETUP.md) for the complete Windows walkthrough.

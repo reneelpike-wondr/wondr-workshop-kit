@@ -58,6 +58,19 @@ Your assistant can help you set this up — just ask in the Claude chat:
 
 ---
 
+### Set Up Telegram Notifications
+
+This lets your AI assistant send you messages on your phone. Very useful when it finishes a task.
+
+**Step 1:** Download Telegram on your phone (free)
+**Step 2:** Search for `@BotFather` in Telegram
+**Step 3:** Send `/newbot` and follow the instructions
+**Step 4:** Copy your bot token
+**Step 5:** Tell your assistant: "I want to set up Telegram notifications. My bot token is: [your token]"
+**Step 6:** Your assistant handles the rest
+
+---
+
 ### Connect Your CRM (GoHighLevel or HubSpot)
 
 Your assistant can help you set this up — just ask in the Claude chat:
@@ -113,7 +126,7 @@ Your assistant will update its memory file and apply it from that point on.
 
 When you find a prompt that works really well, save it. Create a file:
 ```bash
-nano ~/my-assistant/my-best-prompts.md
+nano ~/my-sidekick/my-best-prompts.md
 ```
 Paste in your best prompts so you can reuse them.
 
@@ -131,7 +144,7 @@ Your skills were installed during the workshop setup. They live at `~/.claude/sk
 ### "Claude isn't remembering me"
 Check your memory file exists:
 ```bash
-cat ~/my-assistant/memory/USER.md
+cat ~/my-sidekick/memory/USER.md
 ```
 If it says "status: not-yet-onboarded", start a new conversation and your assistant will run the onboarding questions again.
 
@@ -147,7 +160,7 @@ Your `systematic-debugging` skill handles this — your assistant will walk you 
 
 ### "I forgot how to start my assistant"
 ```bash
-cd ~/my-assistant && claude
+cd ~/my-sidekick && claude
 ```
 That's the only command you need to remember. Put a note on your monitor if needed!
 
@@ -163,19 +176,19 @@ n8n is a visual automation tool (like Zapier, but you own it). Your AI assistant
 - "Every Monday, pull my sales numbers and email me a summary"
 
 ### Your Own Agents
-Once you see the value of AI in your business, you can deploy your own agents that run 24/7. The Wondr team can set this up for you.
+Once you see the value of AI in your business, you can deploy your own agents that run 24/7. Luke and the Wondr team can set this up for you.
 
 ### Voice Interface
-You can talk to your AI assistant instead of typing, using tools like Wispr Flow.
+You can talk to your AI assistant instead of typing, using tools like Wispr Flow (what Luke uses).
 
 ---
 
 ## Support
 
-- **Workshop resources:** All documents in `~/wondr-workshop-kit/docs/`
-- **Skills reference:** `~/wondr-workshop-kit/skills/SKILLS-LIST.md`
-- **Wondr:** wondragency.com.au
+- **Workshop resources:** All documents in `~/workshop-kit/docs/`
+- **Skills reference:** `~/workshop-kit/skills/SKILLS-LIST.md`
+- **Luke / Wondr:** wondragency.com.au
 
 ---
 
-*Built for the Wondr Workshop by Wondr — wondragency.com.au*
+*Built for the OpenClaw Workshop by Wondr — wondragency.com.au*

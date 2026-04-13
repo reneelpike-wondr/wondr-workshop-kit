@@ -1,6 +1,6 @@
 # Workshop Run-Sheet — 3 Hours
 
-**For: The workshop facilitator**
+**For: Luke (workshop facilitator)**
 **Audience: 20 non-technical business owners**
 **Goal: Every person leaves with a working AI assistant and their first real output**
 
@@ -12,10 +12,10 @@
 - [ ] Print and lay out: FIRST-5-PROMPTS card (1 per person)
 - [ ] Print and lay out: GLOSSARY page (1 per person)
 - [ ] Have SUBSCRIPTIONS-AND-SOFTWARE doc on the screen
-- [ ] Test your own setup — open VS Code, run `cd ~/my-assistant && claude`, confirm it loads
+- [ ] Test your own setup — open VS Code, run `cd ~/my-sidekick && claude`, confirm it loads
 - [ ] Have the Notion page open with the bootstrap prompt ready for attendees to copy
 - [ ] Check the room Wi-Fi is strong enough for 20 people downloading tools
-- [ ] Have a "helper" setup for anyone who falls behind (second laptop or screen-share)
+- [ ] Have a "helper" setup for anyone who falls behind (Telegram or second laptop)
 
 ---
 
@@ -64,12 +64,12 @@
 4. "Copy the bootstrap prompt from the Notion page and paste it into Claude Code"
    - **Warning beforehand:** "If a popup appears asking to install developer tools — click Install. This is normal on Mac."
 5. Wait for everyone. Walk around to anyone stuck. Claude will clone the repo, copy skills, and create the workspace.
-6. When the bootstrap finishes: "Now open the folder `~/my-assistant/` in VS Code — File → Open Folder"
+6. When the bootstrap finishes: "Now open the folder `~/my-sidekick/` in VS Code — File → Open Folder"
 7. "Start Claude Code in the new window — your assistant will introduce itself"
 
 ### 0:55-1:00 — Buffer / Help Stragglers (5 min)
 
-- Walk the room, make sure everyone has Claude running in `~/my-assistant/`
+- Walk the room, make sure everyone has Claude running in `~/my-sidekick/`
 - Help anyone whose bootstrap had issues
 
 ---
@@ -106,17 +106,17 @@
 - Walk them through Gmail connection with Playwright assistance
 - Demo: "Now ask your assistant to summarise your last 10 emails"
 
-### 2:20-2:35 — Q&A + Showcase (15 min)
+### 2:20-2:35 — Telegram Setup (15 min)
+
+- "This is the one that will blow your mind — notifications on your phone when your assistant finishes a job"
+- Walk through Telegram bot setup for anyone who wants it
+- Demo: Set a task running and show the phone notification
+
+### 2:35-2:50 — Q&A + Showcase (15 min)
 
 - Ask 3-4 people to share what their assistant produced today
 - Address common questions (have FAQ doc ready)
 - Show: "You can keep giving it tasks after you leave today"
-
-### 2:35-2:50 — Free Exploration + Help (15 min)
-
-- Let attendees try more tasks with their assistant
-- Walk the room helping anyone who wants to connect Gmail, Calendar, or try new skills
-- Encourage them to try prompts from the FIRST-5-PROMPTS card
 
 ### 2:50-3:00 — Close + Next Steps (10 min)
 
@@ -124,7 +124,7 @@
 - "Anything you did not finish today is in this guide — it walks you through completing it at home"
 - Mention the upgrade paths (server, GHL, n8n)
 - "The more you use it, the smarter it gets about YOUR business"
-- CTA: Anyone who wants a fully set-up server version (24/7 agents) — speak to the facilitator
+- CTA: Anyone who wants a fully set-up server version (24/7 agents) — speak to Luke
 
 ---
 
@@ -145,7 +145,7 @@
 
 Every person should leave with:
 - [ ] Claude Code installed and logged in
-- [ ] 65 skills installed
+- [ ] 92 skills installed
 - [ ] Browser automation (Playwright) connected
 - [ ] At least 1 real output from their business (research, email, post)
 - [ ] Memory set up (assistant knows their business)
@@ -154,4 +154,4 @@ Every person should leave with:
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

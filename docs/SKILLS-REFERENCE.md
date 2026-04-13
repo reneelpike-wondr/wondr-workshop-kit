@@ -256,4 +256,4 @@ You can also trigger a skill directly by mentioning the skill name:
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

@@ -63,10 +63,10 @@ This skill orchestrates multiple tools. Verify you have:
 
 ```bash
 # 1. Brave Search API (for web_search)
-# Already configured in Wondr by default
+# Already configured in OpenClaw by default
 
 # 2. Bird CLI (for X/Twitter search)
-source ~/.wondr/credentials/bird.env && bird search "test" -n 1
+source ~/.openclaw/credentials/bird.env && bird search "test" -n 1
 # If this fails, install bird CLI first
 
 # 3. Reddit Insights (optional but recommended)
@@ -454,7 +454,7 @@ A good /last30days report has:
 
 ```bash
 # Copy skill to your skills directory
-cp -r last30days $HOME/.wondr/skills/
+cp -r last30days $HOME/.openclaw/skills/
 
 # Verify dependencies
 /last30days --check-setup

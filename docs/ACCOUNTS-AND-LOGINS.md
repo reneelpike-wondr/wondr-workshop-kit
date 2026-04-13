@@ -46,7 +46,7 @@ GitHub is where the workshop kit is stored. You need an account to download it a
 3. Verify your email address (check your inbox)
 4. Done — the free plan is all you need
 
-> **What is GitHub?** It's like Google Drive for code and documents. Your workshop kit lives at `github.com/reneelpike-wondr/wondr-workshop-kit` — free and public.
+> **What is GitHub?** It's like Google Drive for code and documents. Your workshop kit lives at `github.com/luke-selrai/openclaw-workshop-kit` — free and public.
 
 ✅ Done when: You can log in at [github.com](https://github.com)
 
@@ -56,12 +56,29 @@ GitHub is where the workshop kit is stored. You need an account to download it a
 
 These get connected during the setup wizard. Just have the accounts ready.
 
-### 4. Workshop Kit — Download on the Day
+### 4. Telegram Account
+
+Telegram is a messaging app. Your AI assistant will send you phone notifications through it when it finishes tasks or needs a decision.
+
+1. Download Telegram on your phone: [telegram.org](https://telegram.org)
+   - iPhone: App Store → search "Telegram"
+   - Android: Play Store → search "Telegram"
+2. Open the app and sign up with your phone number
+3. Verify with the SMS code sent to your phone
+4. Done — no desktop app needed (though you can install one too)
+
+> **What you will do at the workshop:** Search for `@BotFather` inside Telegram, create a bot, and give your assistant the bot token. Your assistant guides you through this step by step.
+
+✅ Done when: Telegram is installed on your phone and you can open it
+
+---
+
+### 5. Workshop Kit — Download on the Day
 
 You will run this command at the workshop. It downloads everything automatically:
 
 ```bash
-git clone https://github.com/reneelpike-wondr/wondr-workshop-kit.git ~/wondr-workshop-kit
+git clone https://github.com/luke-selrai/openclaw-workshop-kit.git ~/workshop-kit
 ```
 
 No GitHub login required to download — the repo is public.
@@ -126,10 +143,11 @@ If you want your assistant to manage your sales pipeline and contacts:
 | Google (Gmail) | Free | Before workshop | [accounts.google.com/signup](https://accounts.google.com/signup) |
 | Claude Max | $100 USD/mo | Before workshop | [claude.ai](https://claude.ai) |
 | GitHub | Free | Before workshop | [github.com/signup](https://github.com/signup) |
+| Telegram | Free | Before workshop (phone) | [telegram.org](https://telegram.org) |
 | Notion | Free | After workshop | [notion.so](https://www.notion.so) |
 | GoHighLevel | $97-297 USD/mo | After workshop | [gohighlevel.com](https://www.gohighlevel.com) |
 
-**Before the workshop: 3 accounts (2 free + Claude Max)**
+**Before the workshop: 4 accounts (3 free + Claude Max)**
 **Total pre-workshop cost: $100 USD/month (~$155 AUD)**
 
 ---
@@ -141,9 +159,10 @@ Before the workshop, make sure you have saved:
 - ✅ Google email address + password
 - ✅ Claude Max login (same as Google if you used "Continue with Google")
 - ✅ GitHub username + password
+- ✅ Telegram installed on your phone
 
 A password manager (like 1Password or the built-in Apple/Google one) is the best place to save these.
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

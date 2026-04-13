@@ -25,6 +25,7 @@ Everything you need for your AI Business Assistant, listed by priority with exac
 |---|---|---|
 | **Google Account (Gmail)** | Gmail + Calendar + Drive — connects to your assistant | [accounts.google.com/signup](https://accounts.google.com/signup) |
 | **GitHub** | Download the workshop kit and future updates | [github.com/signup](https://github.com/signup) |
+| **Telegram** | Phone notifications from your assistant | [telegram.org](https://telegram.org) (install on phone) |
 
 **Total: Free**
 
@@ -38,6 +39,7 @@ These connect to Claude Code with one command. No extra cost.
 |---|---|---|---|
 | **Gmail** | Free (Google account) | Read emails, draft replies, search inbox | `claude mcp add gmail npx @gptscript-ai/gmail-mcp` |
 | **Google Calendar** | Free (Google account) | See your schedule, find free time, plan meetings | `claude mcp add google-calendar npx @gptscript-ai/google-calendar-mcp` |
+| **Telegram Bot** | Free | Send you phone notifications when tasks finish | Setup in your assistant — see `docs/COMPLETION-GUIDE.md` |
 | **Notion** | Free / $10 USD/mo | Read and update your notes and workspace | [notion.so](https://www.notion.so) + `claude mcp add notion npx @anthropic-ai/notion-mcp` |
 
 ---
@@ -61,12 +63,12 @@ Right now your assistant only runs when your laptop is open. A server lets it ru
 
 | Option | Cost | Notes |
 |---|---|---|
-| **AWS Lightsail** | $10 USD/mo | Recommended — simple and reliable |
+| **AWS Lightsail** | $10 USD/mo | Luke's recommendation — simple and reliable |
 | **DigitalOcean Droplet** | $6–12 USD/mo | Great documentation for beginners |
 | **Hetzner VPS** | $4–8 USD/mo | Cheapest option |
 | **Vultr** | $6–12 USD/mo | Good performance |
 
-> **Talk to your workshop facilitator** if you want a server set up — it takes 10 minutes and they can walk you through it.
+> **Talk to Luke at the workshop** if you want a server set up — it takes 10 minutes and he can walk you through it.
 
 ---
 
@@ -95,10 +97,10 @@ Right now your assistant only runs when your laptop is open. A server lets it ru
 
 - An AI assistant available 24/7 — never sick, never on leave, never distracted
 - Writes, researches, and automates across your whole business
-- 65 specialist skills built in from day one
+- 92 specialist skills built in from day one
 - Gets smarter every time you use it
 - Replaces 10–20 hours of admin and content work per month
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

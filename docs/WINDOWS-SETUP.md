@@ -1,6 +1,6 @@
 # Windows Setup Guide — Install Git for Windows
 
-**For Windows users attending the Wondr Workshop**
+**For Windows users attending the OpenClaw Workshop**
 
 This is the one extra step Windows users need to complete before the workshop. It takes about 5 minutes, plus a restart.
 
@@ -79,8 +79,8 @@ If you see a version number, you are done. If you see an error like `'git' is no
 
 ## Need Help?
 
-Reach out to your workshop facilitator before the workshop if anything does not work.
+Email **luke@wondragency.com.au** before the workshop if anything does not work.
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

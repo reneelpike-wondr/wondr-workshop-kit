@@ -76,4 +76,4 @@ Include post ideas for each week with topics and hooks.
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

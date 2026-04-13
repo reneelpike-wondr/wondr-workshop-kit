@@ -40,7 +40,7 @@ A website where developers store and share collections of files. Like Google Dri
 A way to connect Claude Code to external tools and apps — Gmail, Calendar, Notion, your CRM, etc. When you add an MCP, you are giving Claude a new connection to the outside world. You do not need to understand the technical details; just know it is how Claude connects to your apps.
 
 **Memory File**
-A file your assistant reads at the start of every conversation to remember who you are. Stored at `~/my-assistant/memory/USER.md`. Think of it as your assistant's notepad about you.
+A file your assistant reads at the start of every conversation to remember who you are. Stored at `~/my-sidekick/memory/USER.md`. Think of it as your assistant's notepad about you.
 
 **Node.js**
 Software that lets JavaScript (a programming language) run on your computer. Claude Code needs it to run. You will never need to interact with it directly — the setup script installs it automatically.
@@ -76,8 +76,8 @@ A unit of text that AI processes. Also used to mean an API key or password. "Cla
 A free app made by Microsoft. It is where you will chat with your AI assistant, see your files, and run your terminal. Think of it like a supercharged Notepad — most professional developers and AI users work in it.
 
 **Webhook**
-A way for one app to notify another app when something happens. "When a new lead comes in, send me a notification." Your assistant can set these up for you.
+A way for one app to notify another app when something happens. "When a new lead comes in, send me a Telegram message." Your assistant can set these up for you.
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

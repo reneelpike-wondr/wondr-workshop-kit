@@ -69,7 +69,7 @@ A file where Claude saves everything it learns about you. Your name, your busine
 ```
 YOUR COMPUTER
 │
-├── my-assistant/
+├── my-sidekick/
 │   ├── CLAUDE.md              ← Claude's instructions (loads every session)
 │   ├── .mcp.json              ← Browser automation auto-connects on startup
 │   └── memory/
@@ -117,7 +117,7 @@ If it learned something new → saves to your memory file
 
 ```bash
 # 1. Start your AI assistant (do this every time)
-cd ~/my-assistant && claude
+cd ~/my-sidekick && claude
 
 # 2. Check what tools are connected
 claude mcp list
@@ -132,7 +132,7 @@ That is it. Claude handles everything else.
 
 ## The First Time You Open It
 
-When you run `cd ~/my-assistant && claude` for the first time, your assistant will:
+When you run `cd ~/my-sidekick && claude` for the first time, your assistant will:
 
 1. Greet you by name (once set up)
 2. Tell you what it remembers about your business

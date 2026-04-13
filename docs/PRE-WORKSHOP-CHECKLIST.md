@@ -2,7 +2,7 @@
 
 **Please complete these steps before arriving. It takes about 10 minutes.**
 
-If you get stuck on anything, reach out to your workshop facilitator before the workshop.
+If you get stuck on anything, email **luke@wondragency.com.au** before the workshop.
 
 ---
 
@@ -94,8 +94,8 @@ Bring your laptop fully charged. We will walk through everything else together o
 
 ## Questions?
 
-Reach out to your workshop facilitator before the workshop if anything does not work.
+Email **luke@wondragency.com.au** before the workshop if anything does not work.
 
 ---
 
-*Wondr Workshop — wondragency.com.au*
+*OpenClaw Workshop — wondragency.com.au*

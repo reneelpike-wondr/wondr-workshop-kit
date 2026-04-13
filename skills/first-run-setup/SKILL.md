@@ -7,7 +7,7 @@ description: First-run setup and onboarding for the AI Business Assistant. Use w
 
 You are setting up a non-technical business owner's AI Business Assistant for the first time. Follow these phases in order. Do not skip steps. Do not add extra checks beyond what is listed here.
 
-**IMPORTANT:** Only perform the steps listed below. Do NOT check for Git, Claude Code, Playwright, or any other software not listed here. The bootstrap process already handled those. Your job is to verify skills, install Node.js, onboard the user, and show them a demo.
+**IMPORTANT:** Only perform the steps listed below. Do NOT check for Git, Claude Code, or any other software not listed here. The bootstrap process already handled those. Your job is to verify skills, install Node.js, onboard the user (with context docs), and show them a demo.
 
 ---
 
@@ -23,8 +23,8 @@ Check if `~/.claude/skills/` has skill directories inside it.
 - If it has directories → "Your skills are ready." Move to Step 2.
 - If empty or missing → "It looks like your skills did not copy correctly. Let me fix that."
   1. Check if `~/wondr-workshop-kit/skills/` exists
-  2. If yes → copy all skill folders (not SKILLS-LIST.md) to `~/.claude/skills/`
-  3. If no → re-download: `git clone https://github.com/reneelpike-wondr/wondr-workshop-kit.git ~/wondr-workshop-kit` then copy.
+  2. If yes → copy all skill folders to `~/.claude/skills/`
+  3. If no → re-download from the Wondr workshop-kit repo, then copy.
   Use the correct commands for the user's operating system (Mac vs Windows).
 
 ### Step 2 — Detect Operating System
@@ -67,22 +67,44 @@ os: [Mac, Windows, or Linux]
 ---
 
 ## Connected Tools
-- [x] Skills installed (65 skills)
+- [x] Skills installed (72 skills)
 - [ ] Playwright (browser automation)
 - [ ] Gmail
 - [ ] Google Calendar
 ```
 
 Say:
-> "Everything looks good! Now let me learn a bit about you and your business. I am going to ask 7 quick questions — after this I will remember everything about you."
+> "Everything looks good! Now let me learn a bit about you and your business."
 
 → Move to Phase 2.
 
 ---
 
-## PHASE 2 — ONBOARDING
+## PHASE 2 — ONBOARDING (CONTEXT-FIRST)
 
-Read `./memory/USER.md`. If `status: not-yet-onboarded` → ask these questions one at a time:
+Before asking the 7 questions, explain the two ways this works.
+
+Say:
+> "There are two ways I can get to know you:
+>
+> 1. **Trusted colleague mode** — if you already have documents about your business (pitch deck, brand guide, client list, product info), paste or drop them in and I'll learn from them in seconds. I'll come in already knowing your world.
+>
+> 2. **Smart stranger mode** — if you don't have docs ready, no problem. I'll ask you 7 quick questions and we'll build your context from scratch right now.
+>
+> Which one?"
+
+### Path A — They have context docs
+
+1. Ask them to paste text, drop files in the project folder, or share links.
+2. Read everything carefully.
+3. Summarise back: "Here's what I've learned about you and [business]..." (5-10 bullet points).
+4. Ask: "Anything I've got wrong or missing?"
+5. Save the summary to `./memory/USER.md` using the template in Path B.
+6. Move to Phase 3.
+
+### Path B — They want the 7 questions
+
+Ask one at a time:
 
 1. "What is your first name?"
 2. "What is your business called, and what do you do in one sentence?"
@@ -123,7 +145,7 @@ os: [their OS]
 ```
 
 Say:
-> "Done! I have saved everything. I will always know who you are from now on. Let me show you what I can do for your business."
+> "Done! I have saved everything. I will always know who you are from now on. Let me show you what I can do."
 
 → Move to Phase 3.
 
@@ -154,8 +176,11 @@ Use skills: `brainstorming`, `writing-plans`
 
 **"git: command not found"**
 - Mac: A popup should appear to install developer tools. Click Install, wait 3-5 minutes.
-- Windows: Git for Windows needs to be installed. See the workshop Notion page for instructions.
+- Windows: Git for Windows needs to be installed. See the Wondr workshop Notion page for instructions.
 
 **Permission errors**
 - Mac: Add `sudo` before the command
 - Windows: Run VS Code as Administrator
+
+**"I've already been using Claude Desktop — is that the same?"**
+- No. Claude Desktop (the chat app) and Claude Code (this tool) are separate systems with separate memory and skills. To bring over existing work: export conversations from Desktop, then paste relevant context into the `./memory/` folder or share directly during Phase 2 onboarding.
