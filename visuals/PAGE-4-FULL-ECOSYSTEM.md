@@ -20,7 +20,7 @@
 │  │                                                                       │    │
 │  │   Reads:  CLAUDE.md — your instructions                              │    │
 │  │   Knows:  memory/USER.md — your business permanently                 │    │
-│  │   Uses:   65 skills — specialist capabilities on demand              │    │
+│  │   Uses:   72 skills — specialist capabilities on demand              │    │
 │  │   Via:    CLI tools · MCP connections · Browser automation           │    │
 │  └───────┬──────────────┬───────────────────┬────────────────┬─────────┘    │
 │          │              │                   │                │               │
@@ -50,7 +50,7 @@ Installed once, available forever. Claude uses them by typing commands.
 git       → Downloads files and tracks changes
 node      → Runs programs (Claude Code needs this)
 python    → Runs scripts and automations
-claude    → Starts your AI assistant
+claude    → Starts your Sidekick
 npm       → An app store for installing other tools
 ```
 

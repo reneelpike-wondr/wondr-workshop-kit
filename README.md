@@ -1,19 +1,19 @@
-# Wondr Workshop — AI Business Assistant Kit
+# Your Business Sidekick — by Wondr
 
 **Built by Wondr — [wondragency.com.au](https://wondragency.com.au)**
 
-> Give your business an AI assistant that remembers who you are, learns your business, and gets smarter every time you use it — without writing a single line of code.
+> Give your business a Business Sidekick that remembers who you are, learns your business, and gets smarter every time you use it — without writing a single line of code.
 
 ---
 
 ## What Is This?
 
-This kit sets up a personal AI business assistant on your laptop. Not a chatbot you close and forget — an assistant that:
+This kit sets up a personal Business Sidekick on your laptop. Not a chatbot you close and forget — an assistant that:
 
 - **Remembers your business** — your name, your customers, your biggest challenges
 - **Lives on your computer** — runs locally, not in a browser tab
 - **Controls your browser** — can open websites, fill forms, and do research for you
-- **Has 65 specialist skills** — research, copywriting, sales emails, social content, competitor analysis, and more
+- **Has 72 specialist skills** — research, copywriting, sales emails, social content, competitor analysis, and more
 - **Gets smarter over time** — every conversation builds on the last
 
 It is built on [Claude Code](https://claude.ai/claude-code) by Anthropic — the same AI that powers Claude, configured specifically for your business.
@@ -31,7 +31,7 @@ It is built on [Claude Code](https://claude.ai/claude-code) by Anthropic — the
 ```text
 Your Laptop
     └── VS Code (your workspace app)
-         └── Claude Code (your AI assistant)
+         └── Claude Code (your Sidekick)
               ├── CLAUDE.md (your assistant's instructions + memory loader)
               ├── memory/ (saves what it learns about you)
               ├── skills/ (65 specialist capabilities)
@@ -75,7 +75,7 @@ Your assistant handles it all conversationally, one step at a time. No scripts t
 
 ---
 
-## Your 65 Skills
+## Your 72 Skills
 
 Skills are specialist capabilities your assistant can use. Think of them like switching your assistant from "general helper" to "expert copywriter", "market researcher", or "product strategist" for a specific task.
 
@@ -251,4 +251,4 @@ Yes. See [docs/WINDOWS-SETUP.md](docs/WINDOWS-SETUP.md) for the complete Windows
 
 ---
 
-Wondr Workshop Kit — April 2026 — Built by Wondr
+Your Business Sidekick — April 2026 — Built by Wondr

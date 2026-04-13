@@ -60,7 +60,7 @@ Your assistant can help you set this up — just ask in the Claude chat:
 
 ### Set Up Telegram Notifications
 
-This lets your AI assistant send you messages on your phone. Very useful when it finishes a task.
+This lets your Sidekick send you messages on your phone. Very useful when it finishes a task.
 
 **Step 1:** Download Telegram on your phone (free)
 **Step 2:** Search for `@BotFather` in Telegram
@@ -179,7 +179,7 @@ n8n is a visual automation tool (like Zapier, but you own it). Your AI assistant
 Once you see the value of AI in your business, you can deploy your own agents that run 24/7. Luke and the Wondr team can set this up for you.
 
 ### Voice Interface
-You can talk to your AI assistant instead of typing, using tools like Wispr Flow (what Luke uses).
+You can talk to your Sidekick instead of typing, using tools like Wispr Flow (what Luke uses).
 
 ---
 

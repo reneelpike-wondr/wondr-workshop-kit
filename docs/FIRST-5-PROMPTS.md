@@ -25,7 +25,7 @@ Make them sound like a real person wrote them — casual but professional.
 Each post should be under 200 words.
 ```
 
-**Example:** "Write me 3 LinkedIn posts about why small businesses in 2026 need an AI assistant. Make them sound like a real person, not a robot."
+**Example:** "Write me 3 LinkedIn posts about why small businesses in 2026 need a Business Sidekick. Make them sound like a real person, not a robot."
 
 ---
 
@@ -43,7 +43,7 @@ Keep it short (under 150 words), casual, and end with a clear next step.
 ## Prompt 4 — Map Out Your Biggest Time Wasters
 
 ```
-I want to understand which tasks in my business I could hand to an AI assistant.
+I want to understand which tasks in my business I could hand to a Business Sidekick.
 Here is what a typical week looks like for me: [describe your week]
 Tell me the top 5 things I could automate or delegate to you, and why.
 ```

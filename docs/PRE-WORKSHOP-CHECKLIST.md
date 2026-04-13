@@ -23,7 +23,7 @@ Done when: You can log in to claude.ai and see "Max" next to your plan.
 
 ## Step 2 — Install VS Code
 
-VS Code is the app where you will work with your AI assistant. It is free.
+VS Code is the app where you will work with your Sidekick. It is free.
 
 ### Mac
 

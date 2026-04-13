@@ -147,7 +147,7 @@ This is what a Level 4 AI setup looks like in a real business.
 ```
 TODAY (Workshop)
   ✅ Claude Code set up on your laptop
-  ✅ 65 skills installed
+  ✅ 72 skills installed
   ✅ Memory of your business saved
   ✅ Browser automation connected
   ✅ First real task done live

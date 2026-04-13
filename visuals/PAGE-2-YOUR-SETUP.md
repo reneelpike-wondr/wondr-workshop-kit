@@ -116,7 +116,7 @@ If it learned something new → saves to your memory file
 ## The 3 Commands You Will Ever Need
 
 ```bash
-# 1. Start your AI assistant (do this every time)
+# 1. Start your Sidekick (do this every time)
 cd ~/my-sidekick && claude
 
 # 2. Check what tools are connected

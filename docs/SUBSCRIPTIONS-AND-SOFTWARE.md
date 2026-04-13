@@ -1,6 +1,6 @@
 # Subscriptions & Software — Complete List
 
-Everything you need for your AI Business Assistant, listed by priority with exact links.
+Everything you need for your Business Sidekick, listed by priority with exact links.
 
 ---
 

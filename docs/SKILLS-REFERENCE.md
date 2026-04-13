@@ -1,6 +1,6 @@
 # Skills Reference — Complete Guide to Your AI Abilities
 
-This document explains every skill your AI assistant has, with example prompts and tips for getting the best results.
+This document explains every skill your Sidekick has, with example prompts and tips for getting the best results.
 
 ---
 
