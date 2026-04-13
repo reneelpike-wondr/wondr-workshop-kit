@@ -1,5 +1,7 @@
 # Before the Workshop — Your Setup Checklist
 
+*Every hero shows up prepared. Batman didn't meet Robin empty-handed — and neither should you.*
+
 **Please complete these steps before arriving. It takes about 10 minutes.**
 
 If you get stuck on anything, email **luke@wondragency.com.au** before the workshop.

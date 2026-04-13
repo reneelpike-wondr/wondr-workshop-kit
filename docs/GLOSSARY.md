@@ -1,5 +1,5 @@
 # Plain English Glossary
-*Tech words translated for normal humans*
+*Tech words translated for normal humans — because even Watson needed Holmes to explain things sometimes.*
 
 ---
 

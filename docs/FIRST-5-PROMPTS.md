@@ -1,5 +1,7 @@
 # Your First 5 Prompts — Copy and Paste These
 
+*Holmes had Watson. Batman had Robin. You've got your Sidekick — here's how to put them to work.*
+
 *Cut this card out and keep it on your desk.*
 
 ---

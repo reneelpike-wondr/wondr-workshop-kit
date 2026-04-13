@@ -2,7 +2,7 @@
 
 **For: Luke (workshop facilitator)**
 **Audience: 20 non-technical business owners**
-**Goal: Every person leaves with a working AI assistant and their first real output**
+**Goal: Every person leaves with a working Business Sidekick and their first real output — their own Robin, Chewie, or Watson, paired up and ready to go.**
 
 ---
 
