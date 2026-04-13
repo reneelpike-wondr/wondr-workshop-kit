@@ -2,7 +2,10 @@
 
 **Built by Wondr — [wondragency.com.au](https://wondragency.com.au)**
 
-> Give your business a Business Sidekick that remembers who you are, learns your business, and gets smarter every time you use it — without writing a single line of code.
+> *Batman had Robin. Holmes had Watson. Han had Chewie.*
+> *Every hero has a sidekick who makes them look good.*
+>
+> This kit pairs you with yours — an AI that learns your business, remembers your voice, and gets smarter every time you use it. No code required.
 
 ---
 
