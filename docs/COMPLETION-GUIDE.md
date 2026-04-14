@@ -1,6 +1,6 @@
 # Completion Guide — Finishing Your Sidekick Setup After the Workshop
 
-Even Robin needed a minute to find his feet after joining Batman. If you didn't get through everything today, this guide walks you through completing your setup at home. Take your time. There's no rush.
+Even Goose needed a minute in the cockpit before the flyby. If you didn't get through everything today, this guide walks you through completing your setup at home. Take your time. There's no rush.
 
 ---
 

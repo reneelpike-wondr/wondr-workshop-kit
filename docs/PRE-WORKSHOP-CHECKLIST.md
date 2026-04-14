@@ -1,6 +1,6 @@
 # Before the Workshop — Your Setup Checklist
 
-*Every hero shows up prepared. Batman didn't meet Robin empty-handed — and neither should you.*
+*Every hero shows up prepared. Maverick didn't climb into the cockpit without a pre-flight — and neither should you.*
 
 **Please complete these steps before arriving. It takes about 10 minutes.**
 

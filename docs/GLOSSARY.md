@@ -1,5 +1,5 @@
 # Plain English Glossary
-*Tech words translated for normal humans — because even Watson needed Holmes to explain things sometimes.*
+*Tech words translated for normal humans — because even Woz had to explain things to Jobs sometimes.*
 
 ---
 

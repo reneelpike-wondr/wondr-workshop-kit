@@ -2,8 +2,8 @@
 
 **Built by Wondr — [wondragency.com.au](https://wondragency.com.au)**
 
-> *Batman had Robin. Holmes had Watson. Han had Chewie.*
-> *Every hero has a sidekick who makes them look good.*
+> *Affleck had Damon. Maverick had Goose. Jobs had Woz.*
+> *Every legendary hero has a sidekick who handles the details so they can focus on the win.*
 >
 > This kit pairs you with yours — an AI that learns your business, remembers your voice, and gets smarter every time you use it. No code required.
 
