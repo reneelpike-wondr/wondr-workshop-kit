@@ -1,18 +1,17 @@
-# Wondr AI Business Assistant — Setup Prompt
+# Your Business Sidekick — Setup Prompt
 
 Paste everything below into Claude Code on your first run. It will take about 10 minutes.
 
 ---
 
-Hi Claude. I'm setting up my AI Business Assistant from the Wondr workshop kit.
+Hi Claude. I'm setting up my Business Sidekick from the Wondr workshop kit.
 
 Please do the following, in order:
 
 1. **Clone the Wondr workshop kit** into my home folder:
    ```
-   git clone https://github.com/WONDR-AGENCY-GITHUB/wondr-workshop-kit.git ~/wondr-workshop-kit
+   git clone https://github.com/reneelpike-wondr/wondr-workshop-kit.git ~/wondr-workshop-kit
    ```
-   (Renee: replace `WONDR-AGENCY-GITHUB` with the real org name once the repo is live.)
 
 2. **Copy skills** from `~/wondr-workshop-kit/skills/` into `~/.claude/skills/`.
    Use the correct command for my operating system (Mac or Windows).
