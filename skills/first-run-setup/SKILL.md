@@ -91,7 +91,26 @@ Say:
 
 Wait for their answer. Save the name.
 
-### Step 2 — Scan the memory folder
+### Step 2 — Invite them to upload their context files
+
+Before scanning, explicitly ask for any pre-work they've done:
+
+> "Perfect, [Name]. Before I start asking questions, did you complete any pre-work before arriving? That could be:
+>
+> - The 3 Context Building Prompts (Business Context, Brand Voice, Current State)
+> - Any Chaos to Clarity action documents
+> - Context you extracted from Claude Desktop, ChatGPT, or another AI tool
+> - Any other business docs that would help me understand you (pitch deck, brand guide, offer list, etc.)
+>
+> **If yes — go ahead and drop them all in now.** You can paste the text directly, drag the files into the project folder, or just tell me where they live and I'll grab them.
+>
+> If you haven't done any pre-work, no stress — just say so and we'll build your context from scratch together."
+
+Wait for them to finish uploading/pasting. If they drop files into the project folder, acknowledge each one. If they paste content, save each chunk to an appropriately named file in `./memory/` (e.g. `business-context.md`, `brand-voice.md`, `current-state.md`).
+
+Once they say they're done (or confirm they have no pre-work), move to Step 3.
+
+### Step 3 — Scan the memory folder
 
 Read everything in `./memory/` (excluding `_archive/` and meta files like `MEMORY.md`, `SETUP.md`). Look for:
 
@@ -103,7 +122,7 @@ Read everything in `./memory/` (excluding `_archive/` and meta files like `MEMOR
 
 Silently build a mental picture of what's loaded vs what's missing.
 
-### Step 3 — Summarise what you already know
+### Step 4 — Summarise what you already know
 
 If ANY context was found, give the user a clean summary of what's loaded. Format like this:
 
@@ -119,7 +138,7 @@ If ANY context was found, give the user a clean summary of what's loaded. Format
 
 Wait for their response. Make corrections if they give them. Update the relevant memory file with any corrections.
 
-### Step 4 — Fill the gaps (only ask what's missing)
+### Step 5 — Fill the gaps (only ask what's missing)
 
 Now look at what WASN'T in memory. Ask ONLY the questions needed to fill those specific gaps. Do NOT ask questions they've already answered through context documents.
 
