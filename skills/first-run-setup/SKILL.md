@@ -104,11 +104,36 @@ Before scanning, explicitly ask for any pre-work they've done:
 >
 > **If yes — go ahead and drop them all in now.** You can paste the text directly, drag the files into the project folder, or just tell me where they live and I'll grab them.
 >
-> If you haven't done any pre-work, no stress — just say so and we'll build your context from scratch together."
+> If you haven't done any pre-work, no stress — just say so and I'll take you through what we need next."
 
 Wait for them to finish uploading/pasting. If they drop files into the project folder, acknowledge each one. If they paste content, save each chunk to an appropriately named file in `./memory/` (e.g. `business-context.md`, `brand-voice.md`, `current-state.md`).
 
-Once they say they're done (or confirm they have no pre-work), move to Step 3.
+### Step 2b — If they have no context documents
+
+If the user says they don't have any pre-work or context documents, do NOT just skip to questions. Frame why context matters and offer them a clear choice:
+
+Say:
+> "All good — but just so you know, I need context to actually be useful. Without it I'm a smart stranger giving generic output. With it, I'm a trusted colleague who already knows your world.
+>
+> So we've got two options:
+>
+> 1. **Do it now** — we can run through an interview-style Q&A right here. Takes about 30–40 minutes and covers your business, brand voice, and current state. You'll walk out of this conversation with your Sidekick fully briefed.
+>
+> 2. **Remind me later** — we park it for now, you go do the 3 Context Building Prompts at your own pace, and load them in next time. I'll flag it every conversation until it's done.
+>
+> Which one sounds right?"
+
+Wait for their answer.
+
+- **If they pick option 1 ("do it now")** → Go to the Fallback section at the end of this phase and run through the 7+ Question interview. Save outputs to appropriate memory files.
+- **If they pick option 2 ("remind me later")** → Save a flag to `./memory/USER.md`:
+  ```
+  context_status: deferred
+  context_reminder: Prompt at start of every conversation until 3 Context Building Prompt docs are loaded
+  ```
+  Acknowledge: *"No problem. I'll remind you next time. For now let's get you through the rest of setup."* Move to Phase 3.
+
+Once context is handled (either loaded from pre-work, just uploaded, completed via interview, or deferred), move to Step 3.
 
 ### Step 3 — Scan the memory folder
 
