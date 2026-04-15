@@ -97,7 +97,7 @@ Before scanning, explicitly ask for any pre-work they've done:
 
 > "Perfect, [Name]. Before I start asking questions, did you complete any pre-work before arriving? That could be:
 >
-> - The 3 Context Building Prompts (Business Context, Brand Voice, Current State)
+> - The 4 Context Building Prompts (Business Context, Brand Voice, SOUL.md, Current State)
 > - Any Chaos to Clarity action documents
 > - Context you extracted from Claude Desktop, ChatGPT, or another AI tool
 > - Any other business docs that would help me understand you (pitch deck, brand guide, offer list, etc.)
@@ -140,7 +140,8 @@ Once context is handled (either loaded from pre-work, just uploaded, completed v
 Read everything in `./memory/` (excluding `_archive/` and meta files like `MEMORY.md`, `SETUP.md`). Look for:
 
 - **Business Context Document** — usually named `business-context.md`, `USER.md`, or similar. Contains what the business does, customers, offerings.
-- **Brand Voice Guide** — usually `brand-voice.md`. Contains tone, writing style, rules.
+- **Brand Voice Guide** — usually `brand-voice.md`. Contains tone, writing style, rules for how to write for their audience.
+- **SOUL.md** — usually `SOUL.md` or `soul.md`. Contains how YOU should operate with them personally — identity, voice (how to talk to them), thinking style, autonomy expectations, and the Green/Yellow/Red Decision Ladder with trigger phrases like "SEND" and "DELETE CONFIRM". **This is the most important file. Read it carefully and follow it in every interaction.**
 - **Current State Document** — usually `current-state.md`. Contains what's on their plate right now, bottlenecks, 90-day goals.
 - **Chaos to Clarity action documents** — could be named anything, often `core-processes.md`, `delegation.md`, `numbers.md`, `time.md`, `bottlenecks.md`, `client-onboarding.md`.
 - **Imported context** from Claude Desktop, ChatGPT, or elsewhere — any other `.md` files that describe the user or their work.
