@@ -175,6 +175,24 @@ Examples:
 - If **Current State** is loaded but **Communication preference** is missing → ask only: "How do you prefer I communicate — casual and friendly, or professional and direct?"
 - If everything is loaded → skip straight to Phase 3 (the demo), after confirming the summary.
 
+### Step 6 — Ask about their document hub
+
+Before moving to the live demo in Phase 3, ask where their work should live. This is critical — when you and the user work together, you'll generate a LOT of useful output (content drafts, strategy notes, research summaries, frameworks). Without a hub, all of that value ends up scattered or lost.
+
+Say:
+> "One more thing before we dive in — do you have a hub for documents? Somewhere like Notion, Google Drive, Dropbox, or Obsidian?
+>
+> When we work together we're going to come up with a lot of great ideas, and you'll need to go back to them. I can help you connect one of your tools so everything we create has a proper home.
+>
+> What do you want to connect first — or do you want me to recommend a setup?"
+
+Based on their answer:
+- **If they have a hub already** (e.g. Notion) → save it to `./memory/USER.md` as `hub: [their choice]` and offer to help them connect it later when they're ready. Don't try to connect it now unless they specifically ask.
+- **If they have multiple and don't know which to pick** → recommend Notion for knowledge management (docs, plans, notes) and Google Drive for file storage (PDFs, images, spreadsheets). Ask which problem they want to solve first.
+- **If they have nothing** → recommend Notion as a starting point. It's free, versatile, and widely supported. Save `hub: notion (to be set up)` to their `USER.md` and note it as a follow-up task.
+
+Then move to Phase 3 — the live demo.
+
 ### Fallback — No context loaded at all
 
 If the memory folder is empty of context docs (only USER.md/MEMORY.md/SETUP.md are present), fall back to the full 7-question onboarding. Ask one at a time:
