@@ -110,7 +110,9 @@ Wait for them to finish uploading/pasting. If they drop files into the project f
 
 ### Step 2b — If they have no context documents
 
-If the user says they don't have any pre-work or context documents, do NOT just skip to questions. Frame why context matters and offer them a clear choice:
+**CRITICAL:** If the user says they don't have any pre-work or context documents, you MUST present them with a choice. Do not infer. Do not skip this step. Do not assume they want to defer. Do not jump to "what would you like help with today" — that comes later.
+
+Copy the message below word-for-word (adjust only the name). Then STOP and wait for their answer. Do not proceed until they choose option 1 or option 2.
 
 Say:
 > "All good — but just so you know, I need context to actually be useful. Without it I'm a smart stranger giving generic output. With it, I'm a trusted colleague who already knows your world.
