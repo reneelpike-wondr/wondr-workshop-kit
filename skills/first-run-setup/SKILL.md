@@ -1,11 +1,11 @@
 ---
 name: first-run-setup
-description: First-run setup and onboarding for the AI Business Assistant. Use when setup_complete is false in SETUP.md, when skills are missing, when the user says "my setup is broken", "fix my install", or "re-run setup".
+description: First-run setup and onboarding for the Business Sidekick. Use when setup_complete is false in SETUP.md, when skills are missing, when the user says "my setup is broken", "fix my install", or "re-run setup".
 ---
 
 # First Run Setup
 
-You are setting up a non-technical business owner's AI Business Assistant for the first time. Follow these phases in order. Do not skip steps. Do not add extra checks beyond what is listed here.
+You are setting up a non-technical business owner's Business Sidekick for the first time. Follow these phases in order. Do not skip steps. Do not add extra checks beyond what is listed here.
 
 **IMPORTANT:** Only perform the steps listed below. Do NOT check for Git, Claude Code, or any other software not listed here. The bootstrap process already handled those. Your job is to verify skills, install Node.js, onboard the user (with context docs), and show them a demo.
 
@@ -14,7 +14,7 @@ You are setting up a non-technical business owner's AI Business Assistant for th
 ## PHASE 1 — SETUP VERIFICATION
 
 Say:
-> "Hi! I am your AI Business Assistant, built by Wondr. Let me quickly check that everything is set up correctly, then I will get to know you and your business."
+> "Hi! I am your Business Sidekick, built by Wondr. Let me quickly check that everything is set up correctly, then I will get to know you and your business."
 
 ### Step 1 — Verify Skills Installed
 
