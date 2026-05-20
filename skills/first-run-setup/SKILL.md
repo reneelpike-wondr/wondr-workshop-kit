@@ -248,7 +248,7 @@ Pick based on their stated challenge:
 
 **Marketing/content challenge:**
 > "Let me research your competitors right now. Who is your main competitor? I will have a report in 2 minutes."
-Use skills: `deep-research`, `competitor-alternatives`
+Use skills: `deep-research`
 
 **Sales/leads challenge:**
 > "Let me write you a personalised outreach email right now for your exact type of customer."
