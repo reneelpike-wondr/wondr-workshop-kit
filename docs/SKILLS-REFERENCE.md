@@ -256,4 +256,57 @@ You can also trigger a skill directly by mentioning the skill name:
 
 ---
 
+## New — Official Anthropic Skills
+
+These nine skills come straight from Anthropic's official skills library (Apache-2.0 licensed), added May 2026. Your Sidekick picks them up automatically.
+
+---
+
+### brand-guidelines
+**What it does:** Builds a proper brand guidelines document — and applies it consistently across everything your Sidekick makes.
+**When to use:** When you want every piece of content to look and sound on-brand.
+> "Create a brand guidelines doc for my business"
+
+### canvas-design
+**What it does:** Designs beautiful posters, one-pagers and visual art as .png or .pdf files.
+**When to use:** When you need a polished visual — a workshop poster, a flyer, a one-pager.
+> "Design a poster for my next workshop"
+
+### frontend-design
+**What it does:** Builds distinctive, production-grade web pages and components that avoid the generic "AI-made" look.
+**When to use:** Landing pages, websites, dashboards.
+> "Design a landing page for my offer"
+
+### web-artifacts-builder
+**What it does:** Builds interactive web pages and tools — calculators, mini-apps, interactive guides.
+**When to use:** When a static page isn't enough and you want something interactive.
+> "Build me an interactive pricing calculator"
+
+### theme-factory
+**What it does:** Applies a polished, consistent visual theme to slides, docs and pages.
+**When to use:** When you want your documents and decks to look designed, not default.
+> "Apply a clean theme to this document"
+
+### algorithmic-art
+**What it does:** Creates generative art with code — backgrounds, patterns, abstract visuals.
+**When to use:** When you want original artwork or on-brand graphic backgrounds.
+> "Create a generative art background in my brand colours"
+
+### doc-coauthoring
+**What it does:** Walks you through writing a document together — proposals, specs, decision docs — step by step.
+**When to use:** Any structured document you want to get right.
+> "Help me co-author a client proposal"
+
+### internal-comms
+**What it does:** Writes internal communications — team updates, FAQs, announcements, status reports.
+**When to use:** When you need to communicate clearly with your team.
+> "Write a team update on this project"
+
+### slack-gif-creator
+**What it does:** Makes animated GIFs sized and optimised for Slack.
+**When to use:** Team culture, fun announcements, reactions.
+> "Make a celebration GIF for our Slack"
+
+---
+
 *OpenClaw Workshop — wondragency.com.au*
