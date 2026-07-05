@@ -46,7 +46,7 @@ GitHub is where the workshop kit is stored. You need an account to download it a
 3. Verify your email address (check your inbox)
 4. Done — the free plan is all you need
 
-> **What is GitHub?** It's like Google Drive for code and documents. Your workshop kit lives at `github.com/luke-selrai/openclaw-workshop-kit` — free and public.
+> **What is GitHub?** It's like Google Drive for code and documents. Your workshop kit lives at `github.com/reneelpike-wondr/wondr-workshop-kit`, and Wondr's audited skills library lives at `github.com/reneelpike-wondr/wondr-skills` — both free and public.
 
 ✅ Done when: You can log in at [github.com](https://github.com)
 
@@ -78,7 +78,7 @@ Telegram is a messaging app. Your AI assistant will send you phone notifications
 You will run this command at the workshop. It downloads everything automatically:
 
 ```bash
-git clone https://github.com/luke-selrai/openclaw-workshop-kit.git ~/workshop-kit
+git clone https://github.com/reneelpike-wondr/wondr-workshop-kit.git ~/workshop-kit
 ```
 
 No GitHub login required to download — the repo is public.
@@ -165,4 +165,4 @@ A password manager (like 1Password or the built-in Apple/Google one) is the best
 
 ---
 
-*OpenClaw Workshop — wondragency.com.au*
+*Wondr Workshop — wondragency.com.au*

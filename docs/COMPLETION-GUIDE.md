@@ -186,7 +186,7 @@ You can talk to your Sidekick instead of typing, using tools like Wispr Flow (wh
 ## Support
 
 - **Workshop resources:** All documents in `~/workshop-kit/docs/`
-- **Skills reference:** `~/workshop-kit/skills/SKILLS-LIST.md`
+- **Skills reference:** `~/workshop-kit/docs/SKILLS-REFERENCE.md` (library source: github.com/reneelpike-wondr/wondr-skills)
 - **Luke / Wondr:** wondragency.com.au
 
 ---

@@ -37,7 +37,7 @@ Your Laptop
          └── Claude Code (your Sidekick)
               ├── CLAUDE.md (your assistant's instructions + memory loader)
               ├── memory/ (saves what it learns about you)
-              ├── skills/ (65 specialist capabilities)
+              ├── skills (the audited Wondr skills library, installed from github.com/reneelpike-wondr/wondr-skills)
               └── Playwright (browser remote control)
 ```
 
@@ -202,7 +202,7 @@ wondr-workshop-kit/
 │       ├── USER.md              # Your profile (filled in on first run)
 │       ├── SETUP.md             # Setup completion status
 │       └── MEMORY.md            # Persistent memory across conversations
-├── skills/                      # 72 skills (installed to ~/.claude/skills/)
+├── (skills install separately from github.com/reneelpike-wondr/wondr-skills)
 ├── docs/
 │   ├── PRE-WORKSHOP-CHECKLIST.md   # What to do before arriving
 │   ├── WINDOWS-SETUP.md            # Step-by-step Windows guide

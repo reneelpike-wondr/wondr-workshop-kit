@@ -1,6 +1,8 @@
 # Skills Reference — Complete Guide to Your AI Abilities
 
-This document explains every skill your Sidekick has, with example prompts and tips for getting the best results.
+This document explains skills your Sidekick can have, with example prompts and tips for getting the best results.
+
+> **⚠️ Updated 2026-07-05:** your install now ships the **audited Wondr skills library** from `github.com/reneelpike-wondr/wondr-skills` — a lean, business-owner set with all developer tooling removed. Check `~/.claude/skills/` to see exactly what you have installed. Skills described below that aren't in your folder are from the extended library — ask Wondr if one would genuinely help your business.
 
 ---
 
