@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "deny": [
+      "Bash(sudo *)", "Bash(su *)",
+      "Bash(rm -rf *)", "Bash(rm -fr *)",
+      "Bash(chmod *)", "Bash(chown *)",
+      "Bash(ssh *)", "Bash(scp *)",
+      "Bash(aws *)", "Bash(gcloud *)", "Bash(az *)", "Bash(kubectl *)",
+      "Bash(npm install -g *)", "Bash(npm i -g *)",
+      "PowerShell(Remove-Item *)", "PowerShell(Format-Volume *)", "PowerShell(Stop-Computer *)",
+      "PowerShell(Set-ExecutionPolicy *)", "PowerShell(Start-Process * -Verb RunAs*)",
+      "PowerShell(ssh *)", "PowerShell(scp *)",
+      "PowerShell(npm install -g *)", "PowerShell(npm i -g *)",
+      "Read(~/.ssh/**)", "Read(~/.aws/**)", "Read(~/.gnupg/**)",
+      "Read(~/.zshrc)", "Read(~/.bashrc)", "Read(//**/.env)",
+      "Edit(~/.ssh/**)", "Edit(//etc/**)",
+      "mcp__*send*"
+    ],
+    "ask": [
+      "Bash(curl *)", "Bash(wget *)", "Bash(git push *)",
+      "PowerShell(Invoke-WebRequest *)", "PowerShell(Invoke-RestMethod *)", "PowerShell(curl *)", "PowerShell(git push *)",
+      "mcp__*reply*", "mcp__*forward*",
+      "mcp__*publish*", "mcp__*create_post*", "mcp__*schedule*",
+      "mcp__*delete*", "mcp__*trash*"
+    ],
+    "allow": [
+      "Bash(git status)", "Bash(git diff *)", "Bash(git log *)",
+      "PowerShell(git status)", "PowerShell(git diff *)", "PowerShell(git log *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PROJECT_DIR}/.claude/hooks/git-autosnapshot.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
