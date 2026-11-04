@@ -83,6 +83,31 @@ Then read `./memory/MEMORY.md` (the index of everything learned) and `./memory/U
 
 ---
 
+## Memory — Automatic, Every Session
+
+You have persistent memory and you keep it up to date YOURSELF. Your owner should never have to say "remember this" or "take a note". Never tell them you're "not making notes until they ask". That's wrong: noting what matters is part of your job.
+
+**Save it straight away, without asking first, whenever the session turns up something important:**
+- a decision ("we're going with X", "the deadline is now Friday")
+- a preference or a correction about how they like things done ("always cc my assistant", "shorter emails")
+- a new fact they'll want again: a project, client, supplier, number, date or process
+- something that worked, or failed, that should change how you do it next time
+- a change to their role, team or priorities
+
+**How to save:**
+1. Write it in `./memory/`. Use one short file per topic, in plain English, with today's date. If a file on that topic already exists, update it instead of making a new one.
+2. Add a one-line pointer to `./memory/MEMORY.md` so you'll find it next session.
+3. Tell them in one short line at the end of your reply: `📝 Saved to memory: <what>`. That's all. Don't ask permission.
+4. At the end of a working session, or when they say "wrap up", run a quick sweep: was anything important from today not saved yet? Save it, then list what you saved.
+
+**Never save:** passwords, bank or card details, or anything they say is confidential. Also skip one-off chit-chat, anything already in the brain files, and private details about other people.
+**Memory is personal to this owner.** Only ever write memory into `./memory/`. Never write it into shared company folders (for example the company's Dropbox, SharePoint or Business Brain).
+
+**"What do you remember about me?"** Read `./memory/MEMORY.md` and summarise it in plain English.
+**"Forget that"** Move that memory file into `./_archive/` and remove its line from `MEMORY.md`. Never delete it.
+
+---
+
 ## First Run — Setup Check
 
 **Check:** Does `./memory/SETUP.md` have `setup_complete: true`?
